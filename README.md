@@ -1,4 +1,4 @@
-# AP-CSA-Tri-3 Yeonjoon Hong | Anti-Squirrel Task Force XXX
+# AP-CSA-Tri-3 Yeonjoon Hong | Anti-Squirrel Task Force
 Individual Github Repo for AP-CSA Tri 3
 
 Plans for Tech Talks:
