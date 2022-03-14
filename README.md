@@ -1,6 +1,9 @@
 # AP-CSA-Tri-3 Yeonjoon Hong | Anti-Squirrel Task Force
 Individual Github Repo for AP-CSA Tri 3
 
+Week 0 Review Ticket:
+https://github.com/yeonjoonhong/yeonjoonhong.github.io/issues/1
+
 Plans for Tech Talks:
 
 Tech Talk 1:
