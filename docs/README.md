@@ -6,7 +6,7 @@ https://github.com/yeonjoonhong/yeonjoonhong.github.io/issues/1
 
 Plans for Tech Talks:
 
-Tech Talk 1:
+Tech Talk 1: 
 
     Overarching concept/notes:
     Questions:
