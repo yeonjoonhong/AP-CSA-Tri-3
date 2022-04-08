@@ -3,6 +3,7 @@
  
 | [Home Page](https://yeonjoonhong.github.io/Data-Structures-2/) | [Tech Talk Notes](../Tech%20Talk%20Notes) | [Test Prep Plans](../Test%20Prep%20Plans) | [Data Struture Work](../Data%20Structure%20Work) | [Review Tickets](../Review%20Tickets) |
 
+### Week 0
 * Data structures
     * primitive
         * int
@@ -19,7 +20,7 @@
     * decorative
         * Telling what action you want to do
 
-# Week 1
+### Week 1
 * Linked list
     * head and tail linked together
         * so there's a previous and next node
@@ -202,7 +203,7 @@ class test<T> {
 ```
 }
 
-### Week 3
+### Week 2
 * Calculator
     * push numbers
 * Symbols for operators
@@ -290,7 +291,7 @@ private void rpnToResult() {
 }
 ```
 
-# Week 3
+### Week 3
 * Bubble sort
     * Worst time complexity O(N^2)
     * Have 2 pointers, and swap the numbers if the value under the pointers have a difference less than 0
