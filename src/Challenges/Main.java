@@ -33,13 +33,15 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
 
         Scanner scanner = new Scanner(System.in);
         try {
+        //runs function from blueprint
             int choice = scanner.nextInt();
             options.get(choice - 1).run();
             System.out.println();
+        //Catches invalid inputs
         } catch (Exception e) {
             System.out.println("Invalid input");
         }
-
+        //ends scanner when an input has been entered
         if (scanner != null)
             scanner.close();
     }
