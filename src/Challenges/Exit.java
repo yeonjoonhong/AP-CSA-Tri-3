@@ -4,6 +4,7 @@ public class Exit extends Blueprint {
     }
 
     public void run() {
+        //terminates program
         System.exit(0);
     }
 
