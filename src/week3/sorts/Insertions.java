@@ -5,38 +5,37 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class BubbleSorts {
+public class Insertions {
     private static ArrayList<Integer> input = new ArrayList<Integer>();
-
-    public BubbleSorts(ArrayList<Integer> input){
-        BubbleSorts.input = input;
-    }
 
     public static ArrayList<Integer> getInput() {
         return input;
     }
 
-    public static void bubblesort(ArrayList<Integer> input)
-    {
-        int temp;
-        if (input.size()>1) // check if the number of orders is larger than 1
-        {
-            for (int x=0; x<input.size(); x++) // bubble sort outer loop
-            {
-                for (int i=0; i < input.size()-i; i++) {
-                    if (input.get(i).compareTo(input.get(i+1)) > 0)
-                    {
-                        temp = input.get(i);
-                        input.set(i,input.get(i+1) );
-                        input.set(i+1, temp);
-                    }
-                }
+    //Just for the display purpose
+    public Insertions(ArrayList<Integer> input){
+        Insertions.input = input;
+    }
+
+    public static void sortGivenArray(){
+        int key = 0; //value to compare
+        int j = 0; //index of other value
+
+        //loop through list
+        for(int i = 0; i < input.size(); i++){
+            key = input.get(i); //get value at index
+            j = i - 1; //get index to previous value
+            //compare value at the jth index to key
+            while(j >= 0 && input.get(j) > key){
+                input.set(j+1, input.get(j));
+                j--; //move to previous index
             }
+            input.set(j+1, key); //set with new value
         }
     }
 
 
-    public static void sort(ArrayList<Integer> a) {
-        BubbleSorts bs = new BubbleSorts(a);
+    public static void sort(ArrayList<Integer> a){
+        Insertions is = new Insertions(a);
     }
 }
